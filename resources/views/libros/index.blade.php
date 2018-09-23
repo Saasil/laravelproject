@@ -36,7 +36,7 @@
 
     @foreach($libros as $libro)
 
-    <a href="/libro/{{$libro->id}}/datos" class="list-group-item list-group-item-info">{{$libro->titulo}}</a>
+    <a href="/libro/{{$libro->id}}" class="list-group-item list-group-item-info">{{$libro->titulo}}</a>
 
     @endforeach
 

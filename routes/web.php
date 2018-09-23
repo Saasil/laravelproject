@@ -12,7 +12,4 @@
 */
 
 Route::get('/', 'ControladorLibros@index');
-
 Route::resource('libro', 'ControladorLibros');
-
-Route::get('libro/{id}/datos', 'ControladorLibros@show');
